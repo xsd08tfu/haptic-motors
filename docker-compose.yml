@@ -6,5 +6,6 @@ services:
       - .:/code
     devices:
       - /dev/gpiomem:/dev/gpiomem
+    tty: true
     command:
       - code/test.py
