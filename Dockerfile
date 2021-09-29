@@ -1,1 +1,1 @@
-FROM python:alpine
+FROM --platform=linux/arm python:alpine
