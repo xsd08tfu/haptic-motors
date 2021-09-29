@@ -1,2 +1,2 @@
 FROM python:alpine
-RUN bash
+RUN test.py
