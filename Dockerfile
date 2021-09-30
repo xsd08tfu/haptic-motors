@@ -2,6 +2,6 @@ FROM --platform=linux/arm python:alpine
 
 COPY code code
 
-CMD ["cd code && ls"]
+CMD ["/code/test.py"]
 
-ENTRYPOINT []
+ENTRYPOINT ["python3"]
