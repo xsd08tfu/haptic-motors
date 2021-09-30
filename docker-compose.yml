@@ -8,4 +8,5 @@ services:
       - .:/code
     devices:
       - /dev/gpiomem:/dev/gpiomem
-    tty: true
+    command:
+      - python3 code/test.py
