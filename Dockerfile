@@ -2,5 +2,6 @@ FROM --platform=linux/arm python:alpine
 
 COPY code code
 
-CMD ["ls"]
+CMD ["cd code && ls"]
+
 ENTRYPOINT []
