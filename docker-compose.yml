@@ -4,8 +4,6 @@ services:
     build: .
     security_opt:
       - seccomp:unconfined
-    volumes:
-      - ./code:/code
     devices:
       - /dev/gpiomem:/dev/gpiomem
     environment:
