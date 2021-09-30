@@ -10,4 +10,4 @@ services:
       - /dev/gpiomem:/dev/gpiomem
     tty: true
     environment:
-      - PYTHONUNBUFFERED: 1
+      - PYTHONUNBUFFERED=1
