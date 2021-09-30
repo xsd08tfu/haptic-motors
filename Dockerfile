@@ -1,2 +1,3 @@
 FROM --platform=linux/arm python:alpine
-ENTRYPOINT ["python3","test.py"]
+CMD ["code/test.py"]
+ENTRYPOINT ["python3"]
