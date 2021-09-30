@@ -5,7 +5,7 @@ services:
     security_opt:
       - seccomp:unconfined
     volumes:
-      - /code:/code
+      - code:/code
     devices:
       - /dev/gpiomem:/dev/gpiomem
     environment:
