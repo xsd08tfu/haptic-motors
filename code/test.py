@@ -1,1 +1,3 @@
-print("hello World")
+import sys
+
+sys.exit(200)
