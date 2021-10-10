@@ -1,7 +1,6 @@
 #!/bin/sh
-
-ping -c2 google.com 
-
+ping -c 2 www.google.com
+echo $?
  
 if [ $? != 0 ] 
 then
