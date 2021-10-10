@@ -1,4 +1,7 @@
 #!/bin/zsh
+
+sleep 5
+
 ping -c 2 www.google.com
  
 if [ $? != 0 ] 
