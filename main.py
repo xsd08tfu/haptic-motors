@@ -6,5 +6,7 @@ motor2 = PWMOutputDevice(20)
 
 
 print("Running at 100%")
-motor1.value = 1
-motor2.value = 1
+
+while True:
+    motor1.value = 1
+    motor2.value = 1
