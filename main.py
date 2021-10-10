@@ -8,9 +8,7 @@ motor2 = PWMOutputDevice(20)
 print("Running at 100%")
 
 def MotorControl(power,time):
-    t = time.localtime()
-    current_time = time.strftime("%H:%M:%S", t)
-    print("Setting motors to "+power*100+"% at "+current_time)
+    print("Setting motors to "+power*100+"%")
     motor1.value = power
     motor2.value = power
     sleep(time-10)
