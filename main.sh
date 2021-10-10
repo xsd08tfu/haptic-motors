@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 ping -c 2 www.google.com
 echo $?
  
