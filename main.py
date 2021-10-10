@@ -10,10 +10,10 @@ def MotorControl(power,time):
     sleep(time)
 
 while True:
-    MotorControl(1,0.5)
-    MotorControl(0,0.5)
-    MotorControl(1,0.5)
-    MotorControl(0,0.5)
+    MotorControl(1,0.1)
+    MotorControl(0,0.1)
+    MotorControl(1,0.1)
+    MotorControl(0,0.1)
     MotorControl(1,30)
     MotorControl(0.9,30)
     MotorControl(0.8,30)
