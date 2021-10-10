@@ -1,5 +1,6 @@
 #!/bin/zsh
 echo "Auto updating Haptic Band script"
+echo "Sleeping fof 5 seconds to allow network connection"
 sleep 5
 
 ping -c 2 www.google.com
