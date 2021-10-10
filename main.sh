@@ -10,7 +10,7 @@ then
    echo "does not have internet"
    python3 /home/pi/code/haptic-motors/main.py
 else
-   echo "has internet"
+   echo "Device has internet, updating"
    cd /home/pi/code/haptic-motors/
    git pull && python3 main.py
 fi
