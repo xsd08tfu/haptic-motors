@@ -7,23 +7,19 @@ motor2 = PWMOutputDevice(20)
 
 print("Running at 100%")
 
+def MotorControl(power,time):
+    print(power)
+    motor1.value = power
+    motor2.value = power
+    sleep(time-10)
+    print("Changing in 10")
+    sleep(5)
+    print("Changing in 5")
+    sleep(5)
+
 while True:
-    print("Both at 100%")
-    motor1.value = 1
-    motor2.value = 1
-    sleep(50)
-    print("Changing in 10")
-    sleep(10)
-    print("Both at 90%")
-    motor1.value = 0.9
-    motor2.value = 0.9
-    sleep(50)
-    print("Changing in 10")
-    sleep(10)
-    print("Both at 0%")
-    motor1.value = 0
-    motor2.value = 0
-    sleep(50)
-    print("Changing in 10")
-    sleep(10)
-    
+    MotorControl(1,30)
+    MotorControl(0.9,30)
+    MotorControl(0.8,30)
+    MotorControl(1,30)
+    MotorControl(0,30)
