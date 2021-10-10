@@ -9,11 +9,9 @@ def MotorControl(power,time):
     motor2.value = power
     sleep(time)
 
-MotorControl(1,0.05)
-MotorControl(0,0.05)
-MotorControl(1,0.05)
-MotorControl(0,0.05)
-MotorControl(1,0.05)
+MotorControl(1,0.5)
+MotorControl(0.5,0.5)
+MotorControl(1,0.5)
 MotorControl(0,2)
 
 while True:
