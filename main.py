@@ -14,7 +14,7 @@ MotorControl(0,0.05)
 MotorControl(1,0.05)
 MotorControl(0,0.05)
 MotorControl(1,0.05)
-MotorControl(0,0.05)
+MotorControl(0,2)
 
 while True:
 
