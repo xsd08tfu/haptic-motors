@@ -1,5 +1,5 @@
 #!/bin/zsh
-
+echo "Auto updating Haptic Band script"
 sleep 5
 
 ping -c 2 www.google.com
